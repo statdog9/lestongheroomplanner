@@ -533,48 +533,38 @@ const APTS = [
 //  GUESTS
 // ═══════════════════════════════════════════════════════════
 let guests = [
-  {id:'g0',  name:'Ale & Jay',                              adults:2,kids:0,type:'couple'},
-  {id:'g1',  name:'Cynthia Verrone & Al Bazaz',             adults:2,kids:0,type:'couple'},
-  {id:'g2',  name:'Matthew & Rona Olenowski',               adults:2,kids:0,type:'couple'},
-  {id:'g3',  name:'Samantha & Mike Brodsky',                adults:2,kids:0,type:'couple'},
-  {id:'g4',  name:'Kevin & Bryanna Clancy',                 adults:2,kids:0,type:'couple'},
-  {id:'g5',  name:'Tañé Martin & Riley Yahr',               adults:2,kids:0,type:'couple'},
-  {id:'g6',  name:'James Capurro & Sammi Groce',            adults:2,kids:0,type:'couple'},
-  {id:'g7',  name:'Brendan & Elizabeth Fallon',             adults:2,kids:0,type:'couple'},
-  {id:'g8',  name:'Chase Tashjian & Kaitlin Hutchinson',    adults:2,kids:0,type:'couple'},
-  {id:'g9',  name:'Mike & Fernando Iamurri',                adults:2,kids:0,type:'couple'},
-  {id:'g10', name:'Austin Oriol Farres & Tyler Lamont',     adults:2,kids:0,type:'couple'},
-  {id:'g11', name:'Richard Moulton & Cevriye Uzer',         adults:2,kids:0,type:'couple'},
-  {id:'g12', name:'Ryan & Trisha Curnal',                   adults:2,kids:0,type:'couple'},
-  {id:'g13', name:'Louis & Gene Arthur',                    adults:2,kids:0,type:'couple'},
-  {id:'g14', name:'Gabriela & Geff Meilander',              adults:2,kids:0,type:'couple'},
-  {id:'g15', name:'Martha Galvan & Alexander Duran',        adults:2,kids:0,type:'couple'},
-  {id:'g16', name:'Emily & Derek Onysko',                   adults:2,kids:0,type:'couple'},
-  {id:'g17', name:'Lorena Estrada & Christian Wren',        adults:2,kids:0,type:'couple'},
-  {id:'g18', name:'Bailey Taunt',                           adults:1,kids:0,type:'single'},
-  {id:'g19', name:'Yurybett Silvas',                        adults:1,kids:0,type:'single'},
-  {id:'g20', name:'Jennifer Martinez & Jeremy London',      adults:2,kids:0,type:'couple'},
-  {id:'g21', name:'Francisco & Beatriz Salceda',            adults:2,kids:0,type:'couple'},
-  {id:'g22', name:'Fabiola Salceda & Martín Núñez',         adults:2,kids:0,type:'couple'},
-  {id:'g23', name:'Francisco David Salceda & Mae',          adults:2,kids:0,type:'couple'},
-  {id:'g24', name:'Mariana Salceda',                        adults:1,kids:0,type:'single'},
-  {id:'g25', name:'Margarita & Juan Jaime Ávalos',          adults:2,kids:0,type:'couple'},
-  {id:'g26', name:'Ma. Dolores Salceda & Jesús Torres',     adults:2,kids:0,type:'couple'},
-  {id:'g27', name:'María Teresa Salceda & Tio Eduardo',     adults:2,kids:0,type:'couple'},
-  {id:'g28', name:'Macario Salceda & María Ceja',           adults:2,kids:0,type:'couple'},
-  {id:'g29', name:'Tia Guadalupe & Tio Raúl Pérez',         adults:2,kids:0,type:'couple'},
-  {id:'g30', name:'José Salceda & Karla Cuevas',            adults:2,kids:0,type:'couple'},
-  {id:'g31', name:'Héctor Salceda & Lidia Maravilla',       adults:2,kids:0,type:'couple'},
-  {id:'g32', name:'Beatriz Maciel del Río',                 adults:1,kids:0,type:'single'},
-  {id:'g33', name:'Tio Juan Cendejas & Rosa M. Zamora',     adults:2,kids:0,type:'couple'},
-  {id:'g34', name:'J. Jesús Cendejas & Carmen Gómez',       adults:2,kids:0,type:'couple'},
-  {id:'g35', name:'Tio David Cendejas & Carmen Godínez',    adults:2,kids:0,type:'couple'},
-  {id:'g36', name:'Francisco Cendejas & Irma Zambrano',     adults:2,kids:0,type:'couple'},
-  {id:'g37', name:'Alejandra Cendejas & Humberto Capilla',  adults:2,kids:0,type:'couple'},
-  {id:'g38', name:'Tio José Luis Cendejas & Mariana Soto',  adults:2,kids:0,type:'couple'},
-  {id:'g39', name:'Norma Cendejas & Alberto Cuevas',        adults:2,kids:0,type:'couple'},
-  {id:'g40', name:'Judith Cendejas & José María Campos',    adults:2,kids:0,type:'couple'},
-  {id:'g41', name:'Patricia & Ambrocio Hernández',          adults:2,kids:0,type:'couple'},
+  {id:'g0',  name:'Ale & Jay',                                    adults:2,kids:0,type:'couple'},
+  {id:'g1',  name:'Cynthia Verrone',                              adults:1,kids:0,type:'single'},
+  {id:'g2',  name:'Matthew Olenowski & Rona Olechnowich',         adults:2,kids:0,type:'couple'},
+  {id:'g3',  name:'Samantha & Mike Brodsky',                      adults:2,kids:0,type:'couple'},
+  {id:'g4',  name:'Kevin & Bryanna Clancy',                       adults:2,kids:0,type:'couple'},
+  {id:'g5',  name:'Tañé Martin & Riley Yahr',                     adults:2,kids:0,type:'couple'},
+  {id:'g6',  name:'James Capurro & Sammi Groce',                  adults:2,kids:0,type:'couple'},
+  {id:'g7',  name:'Brendan & Elizabeth Fallon',                   adults:2,kids:0,type:'couple'},
+  {id:'g8',  name:'Chase Tashjian & Kaitlin Hutchinson',          adults:2,kids:0,type:'couple'},
+  {id:'g9',  name:'Mike Iamurri',                                 adults:1,kids:0,type:'single'},
+  {id:'g10', name:'Fernando Iamurri',                             adults:1,kids:0,type:'single'},
+  {id:'g11', name:'Luke Chang & Kristine Nguyen',                 adults:2,kids:0,type:'couple'},
+  {id:'g12', name:'Austin Oriol Farres & Joseph Petrotta',        adults:2,kids:0,type:'couple'},
+  {id:'g13', name:'Richard Moulton & Tyler Lamont',               adults:2,kids:0,type:'couple'},
+  {id:'g14', name:'Ryan & Trisha Curnal',                         adults:2,kids:0,type:'couple'},
+  {id:'g15', name:'Lois & Gene Arthur',                           adults:2,kids:0,type:'couple'},
+  {id:'g16', name:'Gabriela & Geff Meilander',                    adults:2,kids:0,type:'couple'},
+  {id:'g17', name:'Martha Galvan & Alexander Duran',              adults:2,kids:0,type:'couple'},
+  {id:'g18', name:'Emily & Derek Onysko',                         adults:2,kids:0,type:'couple'},
+  {id:'g19', name:'Lorena Estrada',                               adults:1,kids:0,type:'single'},
+  {id:'g20', name:'Bailey Taunt',                                 adults:1,kids:0,type:'single'},
+  {id:'g21', name:'Yurybett Silvas',                              adults:1,kids:0,type:'single'},
+  {id:'g22', name:'Jennifer Martinez & Jeremy London',            adults:2,kids:0,type:'couple'},
+  {id:'g23', name:'Francisco & Beatriz Salceda',                  adults:2,kids:0,type:'couple'},
+  {id:'g24', name:'Fabiola Salceda',                              adults:1,kids:0,type:'single'},
+  {id:'g25', name:'Francisco David Salceda & Mae Maesawa',        adults:2,kids:0,type:'couple'},
+  {id:'g26', name:'Mariana Salceda',                              adults:1,kids:0,type:'single'},
+  {id:'g27', name:'Alejandra Estefania Cendejas & Humberto Capilla', adults:2,kids:0,type:'couple'},
+  {id:'g28', name:'Norma Isabel Cendejas & Alberto Cuevas',       adults:2,kids:0,type:'couple'},
+  {id:'g29', name:'Judith Teresa Cendejas & José María Campos',   adults:2,kids:0,type:'couple'},
+  {id:'g30', name:'Patricia de Los Ángeles Hernández & Paty Hernandez', adults:2,kids:0,type:'couple'},
+  {id:'g31', name:'Alberto Hernandez & Humberto Capilla Jr.',     adults:2,kids:0,type:'couple'},
 ];
 guests.forEach((g,i)=>g.color=i%16);
 
@@ -583,24 +573,13 @@ guests.forEach((g,i)=>g.color=i%16);
 // ═══════════════════════════════════════════════════════════
 // Each bed holds an array of guest-group ids: [] empty, [couple] OR [single] OR [single,single]
 let bedAssign = {
-  'amore-b1':        ['g0'],   // Ale & Jay
-  'ridolfi-b1':      ['g15'],  // Martha & Alex
-  'ridolfi-b2':      ['g14'],  // Gaby & Jeff
-  'ridolfi-b3':      ['g17'],  // Lorena & Christian
-  'montefeltro-b1':  ['g21'],  // Francisco & Beatriz
-  'montefeltro-b2':  ['g22'],  // Fabiola & Martín
-  'michelangelo-b1': ['g18'],  // Bailey (single — room for one more)
-  'sotto-b1':        ['g16'],  // Emily & Derek
-  'sotto-b2':        ['g23'],  // David & Mae
-  'sotto-b3':        ['g20'],  // Jen & Jeremy
-  'ultima-b1':       ['g40'],  // Tia Judith & José María
-  'ultima-b2':       ['g41'],  // Patricia & Ambrocio
+  'amore-b1': ['g0'],   // Ale & Jay — Bridal Suite
 };
 
 // Build unassigned list
 const allAssigned = new Set(Object.values(bedAssign).flat());
 let unassigned = guests.filter(g=>!allAssigned.has(g.id)).map(g=>g.id);
-// g19 (Yury), g24 (Mariana) now unassigned (they were grouped in overcapacity rooms)
+// Everyone except Ale & Jay starts unassigned
 
 let dragGid = null, dragSrc = null; // dragSrc: bedId | null (pool)
 let gCounter = guests.length;
@@ -652,7 +631,7 @@ function firstNames(name){
 // Family grouping for the unassigned pool
 let POOL_GROUPS = [
   {id:'salceda',  label:'Salceda Family',  test:n=>/salceda/i.test(n)},
-  {id:'cendejas', label:'Cendejas Family', test:n=>/cendejas/i.test(n)},
+  {id:'cendejas', label:'Cendejas Family', test:n=>/cendejas|hern[aá]ndez|capilla/i.test(n)},
   {id:'friends',  label:'Friends & Others', test:()=>true},
 ];
 // Add a custom family group (kept before the 'friends' catch-all)
